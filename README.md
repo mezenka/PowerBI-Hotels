@@ -8,6 +8,7 @@ Short project using a hotel network revenue dataset for 2018-2020 to answer busi
 (3) Is it necessary to invest in increasing parking lots? 
 
 
+
 **Step 1**
 
 Loaded data into Microsoft SQL Server Management Studio as separate CSV files
