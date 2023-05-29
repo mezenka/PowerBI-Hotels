@@ -5,9 +5,11 @@ Short project using a hotel network revenue dataset for 2018-2020 to answer busi
 (3) Is it necessary to invest in increasing parking lots? 
 
 **Step 1**
+
 Loaded data into Microsoft SQL Server Management Studio as separate CSV files
 
 **Step 2**
+
 Prepared data for loading into Microsoft Power BI
 SQL query:
 WITH hotels AS
@@ -24,6 +26,7 @@ ON hotels.market_segment = hmarket_segment.market_segment
 LEFT JOIN dbo.hmeal_cost
 
 **Step 3**
+
 Imported the data from Microsoft SQL Server into Microsoft Power BI and created the following interactive visuals:
 - Cards for total revenue, average rates, nights booked, average discount applicable, number of parking spaces used
 - Line chart describing revenues earned by individual hotels during the analyzed period
