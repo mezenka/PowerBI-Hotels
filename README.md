@@ -11,7 +11,7 @@ Short project using a hotel network revenue dataset for 2018-2020 to answer busi
 
 **Step 1**
 
-Loaded data into Microsoft SQL Server Management Studio as separate CSV files
+Loaded flat files (CSV) into Microsoft SQL Server Management Studio 
 
 
 **Step 2**
