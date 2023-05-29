@@ -17,19 +17,34 @@ Loaded data into Microsoft SQL Server Management Studio as separate CSV files
 **Step 2**
 
 Prepared data for loading into Microsoft Power BI
+
 SQL query:
+
 WITH hotels AS
+
 (
+
 SELECT * FROM dbo.h2018
+
 UNION
+
 SELECT * FROM dbo.h2019
+
 UNION
+
 SELECT * FROM dbo.h2020
+
 )
+
 SELECT * FROM hotels
+
 LEFT JOIN dbo.hmarket_segment
+
 ON hotels.market_segment = hmarket_segment.market_segment
+
 LEFT JOIN dbo.hmeal_cost
+
+
 
 
 **Step 3**
