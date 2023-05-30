@@ -1,5 +1,5 @@
 # PowerBI
-Short project using a hotel network revenue dataset for 2018-2020 to answer business questions:
+Using SQL and PowerBI to prepare and analyse hotel network revenue dataset for 2018-2020 to answer business questions:
 
 (1) What is the revenue trend?
 
